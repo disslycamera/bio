@@ -53,8 +53,15 @@ body {
     border-radius: 50px;
     box-sizing: border-box;
     flex-wrap: wrap;
-}
 
+    text-decoration: none;
+    color: #5f371f;
+    font-size: 20px;
+    font-weight: bold;
+}
+.information:hover{
+    transform: scale(1.1);
+}
 .logo-info {
     display: flex;
     justify-content: flex-start;
@@ -77,16 +84,6 @@ body {
     text-align: center;
 }
 
-.name-info a {
-    text-decoration: none;
-    color: #5f371f;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.name-info a:hover {
-    text-decoration: underline;
-}
 
 /* ----------------------------
    ✅ Responsive: Mobile view
